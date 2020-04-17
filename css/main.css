@@ -1580,6 +1580,38 @@ input::-moz-focus-inner {
   transform: rotate(45deg);
 }
 
+
+#nav-icon1 {
+  width: 30px;
+  height: 20px;
+  position: relative;
+  margin: 1px -14px;
+}
+
+#nav-icon1 span {
+  display: block;
+  position: absolute;
+  height: 4px;
+  width: 100%;
+  background: white;
+  border-radius: 4px;
+  opacity: 1;
+  left: 0;
+}
+
+#nav-icon1 span:nth-child(1) {
+  top: 0px;
+}
+
+#nav-icon1 span:nth-child(2) {
+  top: 8px;
+}
+
+#nav-icon1 span:nth-child(3) {
+  top: 16px;
+}
+
+
 /* menu is open
  * ----------------------------------------------- */
 .menu-is-open .header-nav {
@@ -1781,10 +1813,6 @@ input::-moz-focus-inner {
   background-color: #000000;
 }
 
-.no-js .s-home {
-  background: #000000;
-}
-
 
 /* ------------------------------------------------------------------- 
  * ## home content
@@ -1938,7 +1966,7 @@ input::-moz-focus-inner {
 }
 
 .no-svg .home-scroll__icon {
-  background-image: url(../images/icons/png/icon-arrow-down.png);
+  background-image: url(../images/icon-arrow-down.png);
 }
 
 
